@@ -46,7 +46,7 @@ npx cypress open
 4. Execute os testes em modo headless:
 npx cypress run
 
-✅ Funcionalidades Testadas
+✅ Funcionalidades Testadas:
 Login
 
 Cadastro de usuários
