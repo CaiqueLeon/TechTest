@@ -19,34 +19,33 @@ Foi desenvolvido com boas práticas de automação de testes, incluindo:
 
 ## 📂 Estrutura do Projeto
 TechTest/
- ├── cypress/
- │   ├── e2e/                # Testes de API e UI
- │   │   ├── api/            # Cenários de testes de API
- │   │   │   ├── login.api.cy.js
- │   │   │   └── products.api.cy.js
- │   │   └── ui/             # Cenários de testes de UI
- │   │       ├── login.ui.cy.js
- │   │       ├── register.ui.cy.js
- │   │       └── shoppingList.ui.cy.js
- │   │
- │   │
- │   ├── screenshots/        # Evidências automáticas dos testes
- │   │
- │   ├── support/            # Suporte (comandos, pages, configs extras)
- │   │   ├── pages/          # Page Objects
- │   │   │   ├── HomePage.js
- │   │   │   ├── LoginPage.js
- │   │   │   └── RegisterPage.js
- │   │   ├── commands.js     # Comandos customizados
- │   │   └── e2e.js          # Arquivo padrão de setup
- │   │
- │   └── videos/             # Gravações automáticas dos testes
- │
- ├── .gitignore
- ├── cypress.config.js
- ├── package.json
- ├── package-lock.json
- └── README.md
+├── cypress/
+│ ├── e2e/ # Testes de API e UI
+│ │ ├── api/ # Cenários de testes de API
+│ │ │ ├── login.api.cy.js
+│ │ │ └── products.api.cy.js
+│ │ └── ui/ # Cenários de testes de UI
+│ │ ├── login.ui.cy.js
+│ │ ├── register.ui.cy.js
+│ │ └── shoppingList.ui.cy.js
+│ │
+│ ├── screenshots/ # Evidências automáticas dos testes
+│ │
+│ ├── support/ # Suporte (comandos, pages, configs extras)
+│ │ ├── pages/ # Page Objects
+│ │ │ ├── HomePage.js
+│ │ │ ├── LoginPage.js
+│ │ │ └── RegisterPage.js
+│ │ ├── commands.js # Comandos customizados
+│ │ └── e2e.js # Arquivo padrão de setup
+│ │
+│ └── videos/ # Gravações automáticas dos testes
+│
+├── .gitignore
+├── cypress.config.js
+├── package.json
+├── package-lock.json
+└── README.md
 
 
 ## ⚙️ Pré-requisitos
